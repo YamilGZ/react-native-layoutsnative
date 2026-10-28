@@ -1,0 +1,12 @@
+/**
+ * Estilos globales, colores, tamaños y utilidades de estilo.
+ */
+import { StyleSheet } from 'react-native';
+
+export const globalStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
