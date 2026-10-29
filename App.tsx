@@ -5,7 +5,7 @@ const App = () => {
 
   return (
     <>
-      <ScrollView>
+      <ScrollView style={styles.scrollView}>
 
         <View style={{ flexDirection: 'row' }}>
           <Image 
@@ -109,6 +109,10 @@ const App = () => {
 }
 
 const styles = StyleSheet.create({
+  scrollView: {
+    flex: 1,
+    backgroundColor: '#ffffff'
+  },
   banner: {
     height: 250,
     flex: 1
@@ -116,10 +120,12 @@ const styles = StyleSheet.create({
   titulo: {
     fontWeight: 'bold',
     fontSize: 24,
-    marginVertical: 20
+    marginVertical: 20,
+    color: '#333'
   },
   contenedor: {
-    marginHorizontal: 10
+    marginHorizontal: 10,
+    paddingBottom: 20
   },
   ciudad: {
     width: 250,

@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "build:apk": "cd android && ./gradlew assembleRelease && cp app/build/outputs/apk/release/app-release.apk ../app-layoutsnative.apk",
+    "build:apk": "bash -c \"cd android && ./gradlew assembleRelease && cp app/build/outputs/apk/release/app-release.apk ../app-layoutsnative.apk\"",
     "clean:deps": "rm -rf android/app/build android/app/.cxx android/.gradle android/build node_modules"
   },
   "dependencies": {
