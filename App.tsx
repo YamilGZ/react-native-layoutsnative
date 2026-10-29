@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet,  View, Text, Image, ScrollView } from 'react-native';
+import { StyleSheet, View, Text, Image, ScrollView } from 'react-native';
 
 const App = () => {
 
@@ -15,7 +15,7 @@ const App = () => {
         </View>
 
         <View style={styles.contenedor}>
-          <Text style={styles.titulo}>Qué hacer en Paris</Text>
+          <Text style={styles.titulo}>Qué hacer en París</Text>
 
           <ScrollView
             horizontal
@@ -52,7 +52,7 @@ const App = () => {
             </View>
           </ScrollView>
 
-          <Text style={styles.titulo}>Los Mejores Alojamineto</Text>
+          <Text style={styles.titulo}>Los Mejores Alojamientos</Text>
             <View>
               <View>
                 <Image 
